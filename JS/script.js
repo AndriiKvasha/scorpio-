@@ -55,7 +55,7 @@
 // (num === 50) ? console.log('Ok!'): console.log('Error!');
 
 // switch - модификация конструкции if
-// const num = 51;
+// const num = 50;
 
 // switch (num) {
 //     case 49:
@@ -69,4 +69,38 @@
 //     default:
 //         console.log('Не в этот раз');
 //         break;
+// }
+
+// ЛОГИЧЕСКИЕ ОПЕРАТОРЫ
+
+// Результатом логических операций явлется значение 'Bollean'
+// const hamburger = true;
+// const fries = true;
+
+// if (hamburger && fries) {
+//     console.log('Я сыт!');
+// }
+
+
+// const hamburger = 2;
+// const fries = 1;
+
+// if (hamburger === 3 && fries) {
+//     console.log('Я сыт!');
+// } else {
+//     console.log('Мы уходим!');
+// }
+
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
+
+// // Оператор возвращает первое неверное значение
+// console.log(hamburger === 3 && cola && fries)
+
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log('Я сыт!');
+// } else {
+//     console.log('Мы уходим!');
 // }
